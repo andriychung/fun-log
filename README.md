@@ -1,5 +1,6 @@
 # fun-log
-##td-agent / Loki / Grafana
+
+## td-agent / Loki / Grafana
 
 ## install td-agent / Loki / Grafana / fluentd output plugin for Grafana Loki
 
@@ -24,12 +25,15 @@ sudo launchctl bootstrap system /Library/LaunchDaemons/td-agent.plist
 ## Loki Files
 
 /usr/local/etc/loki-local-config.yaml
+
 /usr/local/var/log/loki.log
 
 ## td-agent Files
 
 /etc/td-agent/td-agent.conf
+
 /var/log/td-agent/td-agent.log
+
 /Library/LaunchDaemons/td-agent.plist
 
 ## Grafana Files
